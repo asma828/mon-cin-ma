@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: #FF00F7;
+    --secondary-color: #990094;
+    --gray-color: #CCCCCC;
+    --dark-color: #4B1F4A;
+    --light-color: #FFCCFD;
+    --transition-time: 300ms;
+}
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    height: 50px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+header .logo {
+    color: #0d0e0d;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+header .logo span{
+    text-decoration: none;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(9, 9, 9);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+input[type="text"]{
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    width: 200px;
+    background-color: #ee76d0;
+}
+
+/* The Footer Section */
+
+footer {
+    color: rgb(253, 252, 252);
+    margin-top: 100px;
+    padding: 100px 0 20px;
+    background-color: var(--dark-color);
+}
+footer .container {
+    display: flex;
+}
+footer .container > .line {
+    width: 2px;
+    min-height: 100%;
+    background-color: white;
+}
+footer .list {
+    padding: 0 60px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 70px;
+}
+footer .list h4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+footer .list h4::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+footer .list i {
+    font-size: 1.5rem;
+}
+footer .list p,
+footer .rightcopy {
+    opacity: .8;
+}
+footer .list > div {
+    display: flex;
+    justify-content: space-between;
+}
+footer .rightcopy {
+    margin-top: 45px;
+    text-align: center;
+    line-height: 1.8;
+}
