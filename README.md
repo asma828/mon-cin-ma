@@ -8,21 +8,22 @@ HTML5
 CSS3
 
 
+
+
+## maquette figma 
+
+[lien](https://www.canva.com/design/DAGT9Nnd46g/DxFIslxwLGmQw19SqCe1CQ/edit)
+
+
+## presenation
+
+[canva]()
 Pages Créées
 Page d'accueil
-
 Présentation du cinéma, 
 les movies
 les services
 Accès rapide aux autres pages
-
-## maquette figma 
-
-[pdf](CinemaFigma.pdf)
-
-
-
-
 Page des Films
 
 Liste des films en cours et à venir
