@@ -15,11 +15,16 @@
 }
 
 .services .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
     margin-top: 50px;
     gap: 25px;
 }
-
+#unique{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 .services .cards .card {
     background-color: white;
 }
@@ -59,3 +64,6 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
+
+
