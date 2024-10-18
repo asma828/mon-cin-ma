@@ -16,6 +16,13 @@ les movies
 les services
 Accès rapide aux autres pages
 
+## maquette figma 
+
+[pdf](CinemaFigma.pdf)
+
+
+
+
 Page des Films
 
 Liste des films en cours et à venir
