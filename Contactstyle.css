@@ -1,0 +1,103 @@
+/* Contactstyle.css */
+
+.slider_section {
+    padding: 25px;
+    background: linear-gradient(90deg, #ca26ff 7%, #f4cac0 85%, #fff3b0 100%);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-bottom-right-radius: 120px;
+}
+
+h1 {
+    margin-top: 70px;
+    font-family: comfortaa;
+}
+
+.image {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img { 
+    max-width: 70%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(249, 247, 247);
+    color: rgb(9, 9, 9);
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+
+.contact_us {
+
+    text-align: center;
+}
+
+.contact_us form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #FFCCFD;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.contact_us .name-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.contact_us .name-fields input {
+    flex: 1;
+}
+
+.contact_us input,
+.contact_us textarea {
+    margin-bottom: 15px;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact_us button {
+    padding: 15px 30px;
+    background-color: #ffeef7;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30%;
+}
+.buttoncontainer{
+display: flex;
+justify-content: flex-end;
+padding-right: 0;
+}
+    
+
+
