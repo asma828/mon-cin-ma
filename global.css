@@ -31,9 +31,8 @@ header .logo {
     color: #0d0e0d;
     font-size: 25px;
     font-weight: bold;
-    
 }
-header .logo span{
+header .logo a{
     text-decoration: none;
 }
 
@@ -56,12 +55,37 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-input[type="text"]{
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
     padding: 5px;
     border-radius: 30px;
     border: 1px solid #ffffff;
     width: 200px;
-    background-color: #ee76d0;
+    
+}
+
+.search-bar{
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    background-color: #FFCCFD;
+    padding: 0 20px;
+    border: 0px;
+    border-radius: 25px;
+    outline: none;
+}
+.input::placeholder{
+    color: white;
+}
+.fa-search{
+    position: absolute;
+    right: 20px;
+    color: rgb(22, 2, 2);
+    
 }
 
 /* The Footer Section */
